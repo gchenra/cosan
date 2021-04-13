@@ -39,9 +39,9 @@ g++ -I /path/to/cosan/ your_program.cpp -o your_program && ./your_program
 #### Data input
 Cosan supports various ways of getting the input dataset. One of the most common ones is to parse the data from a csv file. 
 
-```
+~~~~~~~~~~~~~~~{.cpp}
 Cosan::CosanRawData<NumericType> CRD("./path/to/example.csv");
-```
+~~~~~~~~~~~~~~~
 
 You can also choose to create your own dataset when initializing the object.
 
